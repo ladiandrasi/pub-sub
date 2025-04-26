@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom(['3.0.2']);
+  api.versionsFrom(['2.8.1', 3.0.2']);
   api.use(['ecmascript', 'check', 'tracker', 'random', 'ejson', 'mongo-id'], 'client');
   api.use(['ecmascript', 'check', 'mongo', 'mongo-id', 'ddp-client', 'ejson'], 'server');
   api.use('zodern:types@1.0.13');
